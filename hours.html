@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            display: block;
+        }
+        table caption{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        tr,td,th {
+            border: solid 1px black;
+        }
+        td,th {
+            width: 110px;
+        }
+        th {
+            background-color: black;
+            color: white;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre nós</a></li>
+                <li><a href="hours.html">Horário de atendimento</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="midea/hours-img.jpg" alt="Imagem da clinca">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <table>
+                    <caption>Horários de Atendimento</caption>
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Fériados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clínica geral</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <td>Oftalmologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td> - </td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <div class="phones">
+                    <h2>Telefones:</h2>
+                        <p>(11)3350-1524</p>
+                        <p>(11)99750-1524</p>
+                    <h2>E-mail:</h2>
+                        <p>contato_clinica@hhjt.com.br</p>
+                </div>
+                <div class="map">
+                    <h2>Endereço</h2>
+                    <p>Rua Etruscos, 21-15 - Vila da Saúde, São Paulo - SP</p>
+                </div>
+                <p class="creator">Feito por <a href="https://github.com/mateusousasant" target="_blank">Mateus Sousa</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
